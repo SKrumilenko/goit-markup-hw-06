@@ -304,11 +304,11 @@
     </main>
     <footer class="footer">
       <div class="container footer-wrap">
-        <div>
+        <div class="footer-address">
           <a class="logo footer-logo" href="./index.html"
             ><span class="logo-accent">Web</span><span class="footer-logo-cl">Studio</span></a
           >
-          <address class="footer-address">
+          <address class="footer-address-desc">
             <ul class="list">
               <li class="list-item footer-list-item">
                 <a
@@ -328,7 +328,7 @@
             </ul>
           </address>
         </div>
-        <div>
+        <div class="footer-joinus">
           <h2 class="footer-contacts-title">приєднуйтесь</h2>
           <ul class="list socials">
             <li>
@@ -384,6 +384,22 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-form">
+          <form class="footer-form" name="footer-form">
+            <div>
+              <label>
+                <strong class="footer-contacts-title">Підпишіться на розсилку</strong>
+                <input class="footer-form-input" type="email" name="email" placeholder="E-mail" />
+              </label>
+            </div>
+            <button class="btn footer-btn" type="submit"
+              >Підписатися
+              <svg class="icon-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
