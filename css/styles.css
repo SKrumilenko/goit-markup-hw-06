@@ -437,6 +437,7 @@ img {
 
 .footer-form {
   display: flex;
+  flex-grow: 1;
   align-items: flex-end;
   gap: 12px;
 }
@@ -639,11 +640,14 @@ img {
   display: block;
   margin-bottom: 10px;
 }
+.register-form-field:last-child {
+  margin-bottom: 0;
+}
 .register-form-label {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
-  line-height: 14px;
+  line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: var(--grey-txt-cl);
 }
@@ -720,7 +724,7 @@ img {
   border-radius: 2px;
 }
 .register-form-desc {
-  font-size: 13px;
+  color: var(--grey-txt-cl);
   user-select: none;
 }
 .register-form-link {
